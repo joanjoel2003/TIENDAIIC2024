@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+/* en la parte de title  es el titulo que tendra la pagina web//
+/* en la parte de div es el cuerpo de la pagina donde se  ponene los parrafos funcionan como bloques de informacion/*
+/¨* el body es el cuerpo completo del programa
+/* la parte de h1 puede decirse que es la parte superior del texto si es lo primero que ponemos es lo primero que saldra
+/* h2 es lo que ira debajo del h1
+/* hr lo que hace es cerrar esa parte con una raya negra
+/* La P es un parrafo que se va crear debajo de todo ese texto 
+/*br hace un salto de pagina para dar espacio
+/*Poner texto alineado: style="text-align:center "
+/*La palabra poster en videos, genera un poster de la pelicula o video que se te este reproduciendo con cualquier mmagen ya guardada se puede hacer
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Videos </title>
+        <meta charset="UTF-8">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html"><h1>TechShop</h1></a>
+                <a href="index.html">&triangleleft;</a>
+                <a href="ejemplo3.html">&triangleright;</a> 
+            </nav>
+            <hr> 
+        </header>
+        <aside>
+            <h2> top Ventas</h2>
+            <h3> El producto mas vendido</h3>
+            <p>Segun los datos del mes pasado el producto x100 fue el que registro mas ventas</p>
+        </aside>
+        <section>
+            <article>
+
+
+                <div>
+                    <h2 style="text-align: center">Audios</h2>
+                    <h3>Uso de etiquetas para videos</h3>
+                    <hr/>
+                </div>
+                <div style="text-align:center">
+                    <figure>
+                        <video width="320" height="240" controls poster="/img/torpedo.jpg">
+                            <source src="videos/torpedo.mp4" type="video/mp4">
+                            Your browser does not support the <code>video</code> tag.
+                        </video>
+                               <figcaption>
+                                  Una pelicula de accion y comedia
+                        </figcaption>
+                    </figure>
+                </div>
+            </article> 
+        </section>
+        <footer>Derechos Reservados &COPY;2024</footer>
+
+    </body>
+</html>

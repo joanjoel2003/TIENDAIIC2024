@@ -17,7 +17,7 @@ create table techshop.categoria (
   ruta_imagen varchar(1024),
   activo bool,
   PRIMARY KEY (id_categoria))
-ENGINE = InnoDB
+ENGINE = InnoD t c con,B
 DEFAULT CHARACTER SET = utf8mb4;
 
 create table techshop.producto (

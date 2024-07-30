@@ -15,8 +15,7 @@ public class Producto implements Serializable {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name="id_producto")
-  private long  idProducto;
-  
+  private long  idProducto;  
   private String descripcion;  
     private String detalle;  
     private double precio;
@@ -29,7 +28,7 @@ public class Producto implements Serializable {
    @JoinColumn(name="id_categoria")
    Categoria  categoria;
  
-         
+  
     public Producto() {
     }
 

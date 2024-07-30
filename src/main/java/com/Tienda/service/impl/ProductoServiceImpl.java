@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
-public class ProdcutoServiceImpl  implements ProductoService{
+public class ProductoServiceImpl  implements ProductoService{
  @Autowired
     private ProductoDao productoDao;
 

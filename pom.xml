@@ -91,8 +91,12 @@
             <groupId>org.thymeleaf.extras</groupId>
             <artifactId>thymeleaf-extras-springsecurity6</artifactId>
         </dependency>
-  
-      
+        <!-- Dependencia opcional para validación -->
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>7.0.2.Final</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -113,3 +117,4 @@
     </build>
 
 </project>
+
